@@ -25,7 +25,7 @@
                         </li>
                     </ul>
                     <div class="button-group mt--40 mt_sm--20">
-                        <a class="btn-default btn-icon" target="_blank" href="#">Read more<i class="icon feather-arrow-right"></i></a>
+                        <a class="btn-default btn-icon" href="{{ url('/services') }}">Read more<i class="icon feather-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

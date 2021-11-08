@@ -14,29 +14,26 @@
                 <div class="header-right">
                     <nav class="mainmenu-nav d-none d-lg-block">
                         <ul class="mainmenu">
-                            <li><a href="#">WHY FIRESI</a></li>
+                            <li><a href="{{ url('/why-firesi') }}">WHY FIRESI</a></li>
                             <li class="has-droupdown has-menu-child-item"><a href="#">SERVICES</a>
                                 <ul class="submenu">
-                                    <li><a href="{{ url('/services') }}">SERVICES</a></li>
-                                    <li><a href="">MANUFACTURING</a></li>
-                                    <li><a href="">INSTALLATION</a></li>
-                                    <li><a href="">PRESSURE VESSEL INSPECTION</a></li>
+                                    <li><a href="{{ url('/services') }}">SERVICE</a></li>
+                                    <li><a href="{{ url('/services/manufacturing') }}">MANUFACTURING</a></li>
+                                    <li><a href="{{ url('/services/installation') }}">INSTALLATION</a></li>
+                                    <li><a href="{{ url('/services/pressure-vessel-inspection') }}">PRESSURE VESSEL INSPECTION</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">PROJECTS</a></li>
+                            <li><a href="{{ url('/projects') }}">PROJECTS</a></li>
                             <li class="has-droupdown has-menu-child-item"><a href="#">PRODUCTS</a>
                                 <ul class="submenu">
-                                    <li><a href="">FRS RACK 3</a></li>
-                                    <li><a href="">FIRESI MODUL Fire Suppression</a></li>
-                                    <li><a href="">VALVES FRS-H</a></li>
+                                    <li><a href="{{ url('/products/frs-rack-3') }}">FRS RACK 3</a></li>
+                                    <li><a href="{{ url('/products/firesi-modul') }}">FIRESI MODUL Fire Suppression</a></li>
+                                    <li><a href="{{ url('/products/valves-frs-h') }}">VALVES FRS-H</a></li>
                                 </ul>
                             </li>
-                            <li class="has-droupdown has-menu-child-item"><a href="{{ url('/about-us') }}">ABOUT US</a>
-                                <ul class="submenu">
-                                    <li><a href=""> OUR TEAM</a></li>
-                                </ul>
+                            <li><a href="{{ url('/about-us') }}">ABOUT US</a></li>
                             </li>
-                            <li><a href="{{ url('contact') }}">CONTACT</a></li>
+                            <li><a href="{{ url('/contact') }}">CONTACT</a></li>
                         </ul>
                     </nav>
 
@@ -71,12 +68,26 @@
             </div>
         </div>
         <ul class="mainmenu">
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">TEAM</a></li>
-            <li><a href="#">WHY FIRESI</a></li>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="{{ url('/why-firesi') }}">WHY FIRESI</a></li>
+            <li class="has-droupdown has-menu-child-item"><a href="#">SERVICES</a>
+                <ul class="submenu">
+                    <li><a href="{{ url('/services') }}">SERVICE</a></li>
+                    <li><a href="{{ url('/services/manufacturing') }}">MANUFACTURING</a></li>
+                    <li><a href="{{ url('/services/installation') }}">INSTALLATION</a></li>
+                    <li><a href="{{ url('/services/pressure-vessel-inspection') }}">PRESSURE VESSEL INSPECTION</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ url('/projects') }}">PROJECTS</a></li>
+            <li class="has-droupdown has-menu-child-item"><a href="#">PRODUCTS</a>
+                <ul class="submenu">
+                    <li><a href="{{ url('/products/frs-rack-3') }}">FRS RACK 3</a></li>
+                    <li><a href="{{ url('/products/firesi-modul') }}">FIRESI MODUL Fire Suppression</a></li>
+                    <li><a href="{{ url('/products/valves-frs-h') }}">VALVES FRS-H</a></li>
+                </ul>
+            </li>
+            <li><a href="{{ url('/about-us') }}">ABOUT US</a></li>
+            </li>
+            <li><a href="{{ url('/contact') }}">CONTACT</a></li>
         </ul>
     </div>
 </div>

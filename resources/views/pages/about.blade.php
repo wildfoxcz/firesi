@@ -7,7 +7,6 @@
                 <div class="col-lg-12">
                     <div class="inner pt--80 text-center" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
                         <div>
-                            <h3 class="rn-sub-badge"><span class="theme-gradient">About Us</span></h3>
                         </div>
                         <h2 class="title">FIRESI is a Czech manufacturer of specialized extinguishing systems and devices.</h2>
                     </div>

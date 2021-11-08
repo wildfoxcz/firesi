@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /**************************************
- CSS Index  
+ CSS Index
 ****************************
 
 /--- Default Styles -----/
@@ -703,7 +703,7 @@ var {
   font-family: "Courier 10 Pitch", Courier, monospace; }
 
 /*---------------------------
-	List Style 
+	List Style
 ---------------------------*/
 ul,
 ol {
@@ -920,7 +920,7 @@ ul li a, ol li a, #scrollUp, .form-group input, .form-group textarea, .mainmenu-
   background-position: top left; }
 
 /*----------------------
-    Animation Css  
+    Animation Css
 -----------------------*/
 .post-scale {
   overflow: hidden; }
@@ -949,7 +949,7 @@ ul li a, ol li a, #scrollUp, .form-group input, .form-group textarea, .mainmenu-
   animation: customOne 2s infinite; }
 
 /* ------------------------
-    Custom Animation 01 
+    Custom Animation 01
 ----------------------------*/
 @-webkit-keyframes headerSlideDown {
   0% {
@@ -1005,7 +1005,7 @@ ul li a, ol li a, #scrollUp, .form-group input, .form-group textarea, .mainmenu-
     transform: translateY(0); } }
 
 /*--------------------------------
-Scroll Down Button Animation  
+Scroll Down Button Animation
 ----------------------------------*/
 @keyframes scrollDown {
   0% {
@@ -1020,7 +1020,7 @@ Scroll Down Button Animation
 /*==============================
  *  Utilities
 =================================*/
-/* 
+/*
 font-family: 'Inter', sans-serif;
 */
 @media only screen and (max-width: 767px) {
@@ -1052,7 +1052,7 @@ iframe {
   margin-bottom: -10px; }
 
 /*===============================
-    Background Color 
+    Background Color
 =================================*/
 .bg-color-primary {
   background: var(--color-primary); }
@@ -1084,7 +1084,7 @@ iframe {
   background-image: linear-gradient(180deg, var(--color-black), transparent); }
 
 /*===========================
-    Background Image 
+    Background Image
 =============================*/
 .bg_image_fixed {
   background-attachment: fixed !important; }
@@ -1178,6 +1178,29 @@ iframe {
 
 .bg_image--30 {
   background-image: url(../images/bg/bg-image-30.jpg); }
+
+.bg_image--manu {
+  background-image: url(../images/services/vyroba.jpg); }
+
+.bg_image--pro {
+  background-image: url(../images/bg/projekty.jpg); }
+
+.bg_image--why {
+    background-image: url(../images/bg/map.png);
+    background-position: center top;}
+
+.bg_image--pvi {
+    background-image: url(../images/services/servis.jpg); }
+
+.bg_image--frs-rack-3 {
+    background-image: url(../images/frs-rack-3/DSC08350.JPG);
+    background-position: center center;}
+
+.bg_image--install {
+    background-image: url(../images/services/montaz.png);
+    background-position: center center}
+
+
 
 /* Height and width */
 .fullscreen {
@@ -1503,7 +1526,7 @@ textarea:-ms-input-placeholder {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
 /*=============================
-	Overlay styles 
+	Overlay styles
 ==============================*/
 [data-overlay],
 [data-black-overlay],
@@ -1587,7 +1610,7 @@ textarea:-ms-input-placeholder {
   opacity: 1; }
 
 /*------------------------------
-    Scroll Up 
+    Scroll Up
 --------------------------------*/
 #scrollUp {
   width: 70px;
@@ -1666,7 +1689,7 @@ textarea:-ms-input-placeholder {
     color: var(--color-primary); }
 
 /*--------------------
-    Contact Form 
+    Contact Form
 ----------------------*/
 .form-message {
   margin-bottom: 0;
@@ -1679,7 +1702,7 @@ textarea:-ms-input-placeholder {
     color: #0d8d2d; }
 
 /*=========================
-    Section Separation 
+    Section Separation
 ==========================*/
 .mt_dec--30 {
   margin-top: -30px; }
@@ -4937,7 +4960,7 @@ textarea:-ms-input-placeholder {
     padding-left: 100px !important;
     padding-right: 100px !important; }
 
-/*======================== 
+/*========================
     Common Style Css
 ==========================*/
 /* Theme Gradient */
@@ -5875,9 +5898,9 @@ body.sal-disabled [data-sal|='flip'] {
 .no-js .cd-words-wrapper b.is-visible {
   opacity: 1; }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xclip 
+xclip
 
 -------------------------------- */
 .cd-headline.clip span {
@@ -5984,7 +6007,7 @@ xclip
     Header Styles
 ***************************************/
 /*--------------------------
-    Header Styles  
+    Header Styles
  --------------------------*/
 .logo-dark {
   display: none; }
@@ -6105,7 +6128,7 @@ xclip
     transform: translateY(0); } }
 
 /*--------------------------
-    Navigation Styles 
+    Navigation Styles
 ----------------------------*/
 .mainmenu-nav .mainmenu {
   display: flex;
@@ -6209,7 +6232,7 @@ xclip
         top: 100%; }
 
 /*--------------------------
-    Header Top Styles  
+    Header Top Styles
 -----------------------------*/
 .header-top-news {
   position: relative;
@@ -6281,7 +6304,7 @@ xclip
     display: none; }
 
 /*----------------------------
-    Header Top Bar  
+    Header Top Bar
 ----------------------------*/
 .header-top-bar {
   padding: 10px 0;
@@ -6400,7 +6423,7 @@ xclip
         background-color: var(--color-darker); } }
 
 /*------------------------------
-    Popup Menu Styles  
+    Popup Menu Styles
 --------------------------------*/
 .popup-mobile-menu {
   z-index: 9999;
@@ -6500,10 +6523,10 @@ xclip
       border-bottom-color: transparent; }
 
 /**************************************
-            Elements 
+            Elements
 ***************************************/
 /*====================
-    Breadcrump Area 
+    Breadcrump Area
 ======================*/
 .breadcarumb-style-1 {
   border-bottom: 1px solid var(--color-border); }
@@ -6813,7 +6836,7 @@ div.btn-default {
     opacity: 0.5; }
 
 /*--------------------
-    Service Styles  
+    Service Styles
 ----------------------*/
 .service.service__style--1 {
   padding: 50px 35px;
@@ -7004,7 +7027,7 @@ div.btn-default {
   display: none; }
 
 /*
-    Card Styles  
+    Card Styles
 */
 .card-box.card-style-1 {
   box-shadow: var(--shadow-lighter);
@@ -7091,7 +7114,7 @@ div.btn-default {
   color: var(--color-light-green); }
 
 /*------------------------------
-    Counterup Style Four  
+    Counterup Style Four
 -------------------------------*/
 .counter-style-4 {
   text-align: left;
@@ -7113,7 +7136,7 @@ div.btn-default {
       display: inline-block; }
 
 /*-----------------------
-    Progress Bar 
+    Progress Bar
 -----------------------*/
 .single-progress + .single-progress {
   margin-top: 40px; }
@@ -7181,7 +7204,7 @@ div.btn-default {
   height: 20px; }
 
 /*-----------------------------------
-    Radial Progress 
+    Radial Progress
 -----------------------------------*/
 .radial-progress-single {
   text-align: center; }
@@ -7223,7 +7246,7 @@ div.btn-default {
         color: var(--color-body); }
 
 /*--------------------------
-    Accordion Styles  
+    Accordion Styles
 ---------------------------*/
 .rn-accordion-style .card {
   background: var(--color-lessdark);
@@ -7306,7 +7329,7 @@ div.btn-default {
   visibility: hidden; }
 
 /*-----------------------
-    Social Icons 
+    Social Icons
 -------------------------*/
 .social-default {
   display: flex;
@@ -7380,7 +7403,7 @@ div.btn-default {
       color: var(--color-primary) !important; }
 
 /*----------------------
-    Team Style  
+    Team Style
 -------------------------*/
 .rn-box-card,
 .team-style-default {
@@ -7468,7 +7491,7 @@ div.btn-default {
         padding-top: 10px; }
 
 /*---------------------
-    Team Style Two  
+    Team Style Two
 -----------------------*/
 .team-style-two .inner .thumbnail img {
   width: 100%;
@@ -7506,7 +7529,7 @@ div.btn-default {
   transform: none; }
 
 /*---------------------
-    Team Style Three  
+    Team Style Three
 -----------------------*/
 .team-style-three .inner {
   position: relative; }
@@ -7544,7 +7567,7 @@ div.btn-default {
   opacity: 1; }
 
 /*---------------------
-    Portfolio Styles  
+    Portfolio Styles
 -----------------------*/
 .rwt-card {
   overflow: hidden; }
@@ -7582,7 +7605,7 @@ div.btn-default {
     padding: 25px; }
 
 /*-----------------------------
-    Filter Button Style  
+    Filter Button Style
 -------------------------------*/
 .filter-button-default {
   display: flex;
@@ -7603,7 +7626,7 @@ div.btn-default {
       color: var(--color-white) !important; }
 
 /*--------------------------------
-    Portfolio Read More Icon  
+    Portfolio Read More Icon
 ---------------------------------*/
 .rwt-load-more a.btn-default.btn-icon .icon,
 .rwt-load-more button.btn-default.btn-icon .icon {
@@ -7615,7 +7638,7 @@ div.btn-default {
     height: 20px; }
 
 /*----------------------------------
-    Portfolio Grid Layout  
+    Portfolio Grid Layout
 ----------------------------------*/
 .grid-metro2 {
   margin: 0 -15px; }
@@ -7660,7 +7683,7 @@ div.btn-default {
         width: 100%; } }
 
 /*-------------------------
-    Testimonial Styles  
+    Testimonial Styles
 --------------------------*/
 .card-style-default.testimonial-style-one .inner .thumbnail {
   overflow: visible; }
@@ -7702,7 +7725,7 @@ div.btn-default {
   margin-top: 20px; }
 
 /*-----------------------------
-    Testimonial Style Two  
+    Testimonial Style Two
 -------------------------------*/
 .testimonial-style-two .content {
   position: relative;
@@ -7761,7 +7784,7 @@ div.btn-default {
   margin-bottom: 0; }
 
 /*----------------------
-    Slick Dots  
+    Slick Dots
 ------------------------*/
 .rn-slick-dot .slick-dots {
   bottom: -60px; }
@@ -7811,7 +7834,7 @@ div.btn-default {
     background-color: transparent !important; }
 
 /*----------------------
-    Slick Arrow  
+    Slick Arrow
 ------------------------*/
 .rn-slick-arrow {
   position: relative; }
@@ -7878,7 +7901,7 @@ div.btn-default {
     opacity: 1; }
 
 /* -----------------------
-Timeline Area  
+Timeline Area
 --------------------------*/
 .timeline-line {
   position: absolute;
@@ -7943,7 +7966,7 @@ Timeline Area
     animation: radialanimation 2.2s cubic-bezier(0.26, 1.04, 0.54, 1) infinite; }
 
 /*------------------------------
-    Single Timeline Styles  
+    Single Timeline Styles
 -------------------------------*/
 .single-timeline {
   position: relative;
@@ -8020,7 +8043,7 @@ Timeline Area
     transform: translate3d(-50%, -50%, 0) scale(1); } }
 
 /*----------------------------
-    Timeline Style Two  
+    Timeline Style Two
 ----------------------------*/
 .timeline-style-two {
   position: relative;
@@ -8115,7 +8138,7 @@ Timeline Area
       background-color: var(--color-primary); }
 
 /*--------------------------------
-    Call To Action Style  
+    Call To Action Style
 --------------------------------*/
 .clltoaction-style-default {
   padding: 250px 0; }
@@ -8345,7 +8368,7 @@ Timeline Area
     opacity: 0.7; }
 
 /*---------------------
-    Tab Styles  
+    Tab Styles
 -----------------------*/
 .rn-default-tab .tab-button {
   padding: 0;
@@ -8549,7 +8572,7 @@ Timeline Area
       padding: 30px; }
 
 /*--------------------------
-    split Area Styles  
+    split Area Styles
 ----------------------------*/
 .rn-splite-style .thumbnail img {
   border-radius: 0;
@@ -8586,7 +8609,7 @@ Timeline Area
       color: var(--color-dark-alt); }
 
 /*----------------------------
-    Video Popup Styles  
+    Video Popup Styles
 ------------------------------*/
 .video-popup,
 .rn-gallery {
@@ -8645,7 +8668,7 @@ Timeline Area
           font-size: 20px; } }
 
 /*==========================
-    Contact Address 
+    Contact Address
 ============================*/
 .contact-form-1 .form-group input {
   height: 70px;
@@ -8661,7 +8684,7 @@ Timeline Area
   margin: 0; }
 
 /*-------------------
-    Address Area  
+    Address Area
 --------------------*/
 .rn-address {
   margin-top: 30px;
@@ -8792,7 +8815,7 @@ Timeline Area
         flex-basis: 50%; } }
 
 /*---------------------------
-    Error Styles Area  
+    Error Styles Area
 -----------------------------*/
 .error-inner {
   text-align: center; }
@@ -8932,7 +8955,7 @@ Timeline Area
   box-shadow: none; }
 
 /*----------------------------
-    Advance Pricing Table  
+    Advance Pricing Table
 ------------------------------*/
 .advance-pricing {
   background: var(--color-blackest);
@@ -9015,7 +9038,7 @@ iframe {
   font-size: 16px; }
 
 /*--------------------------
-    Swicher Styles  
+    Swicher Styles
 ----------------------------*/
 .my_switcher ul li a.dark img {
   display: none;
@@ -9058,7 +9081,7 @@ iframe {
         margin-top: -3px; }
 
 /*------------------------
-    Back to Top  
+    Back to Top
 --------------------------*/
 .rn-back-top {
   position: fixed;
@@ -9086,7 +9109,7 @@ iframe {
     color: var(--color-primary) !important; }
 
 /*--------------------------
-    About Styles  
+    About Styles
 ---------------------------*/
 .about-style-4 .title {
   font-weight: 400;
@@ -9206,7 +9229,7 @@ iframe {
   margin-bottom: 25px; }
 
 /*---------------------------
-    Newsletter Styles  
+    Newsletter Styles
 ----------------------------*/
 .border-top-bottom {
   border-top: 1px solid var(--color-border);
@@ -9267,10 +9290,10 @@ iframe {
       height: 55px; }
 
 /**************************************
-            Blog 
+            Blog
 ***************************************/
 /*----------------------
-    Blog Styles  
+    Blog Styles
 -----------------------*/
 .rn-card {
   position: relative;
@@ -9507,7 +9530,7 @@ iframe {
       border-color: var(--color-primary); }
 
 /*------------------------------
-    Blog Details 
+    Blog Details
 ----------------------------------*/
 .post-page-banner .rn-meta-list {
   justify-content: center; }
@@ -9567,7 +9590,7 @@ iframe {
     Footer Styles
 ***************************************/
 /*-----------------------
-    Footer Style Here  
+    Footer Style Here
 ------------------------*/
 .logo a img {
   max-height: 55px; }
@@ -9686,7 +9709,7 @@ iframe {
     border-top: 0; }
 
 /*--------------------------
-    Copyright Area  
+    Copyright Area
 ---------------------------*/
 .copyright-style-one {
   background: var(--color-darkest);
@@ -9729,7 +9752,7 @@ iframe {
             Template
 ***************************************/
 /*------------------------
-    Banner Styles  
+    Banner Styles
 -------------------------*/
 .slider-dot.rn-slick-dot .slick-dots {
   bottom: 60px; }
@@ -9873,7 +9896,7 @@ iframe {
   color: var(--color-white); }
 
 /*-----------------------
-    Slider Style One  
+    Slider Style One
 -------------------------*/
 .slider-style-1 .inner .subtitle {
   font-family: var(--font-primary);
@@ -10404,7 +10427,7 @@ iframe {
     background-image: url(../images/slider-bg/bg-image-16.jpg); }
 
 /*-----------------------------
-    Portfolio details  
+    Portfolio details
 --------------------------------*/
 .rwt-portfolio-details .content-left .title {
   font-size: 38px;
@@ -10460,7 +10483,7 @@ iframe {
       margin-right: 0; } }
 
 /*--------------------------------
-    Single Demo  
+    Single Demo
 -------------------------------*/
 .single-demo {
   text-align: center;
@@ -10509,7 +10532,7 @@ iframe {
   max-height: 150px; }
 
 /*-------------------------
-    Darkmode Styles  
+    Darkmode Styles
 ---------------------------*/
 .rn-back-top i {
   transition: 0.3s; }

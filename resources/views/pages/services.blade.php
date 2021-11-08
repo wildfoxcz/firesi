@@ -6,9 +6,6 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
-                        <h4 class="subtitle ">
-                            <span class="theme-gradient">Services</span>
-                        </h4>
                         <h2 class="title w-600 mb--20">We service fire safety equipment throughout their lifetime.</h2>
                         <p class="description b1">Particularly we do servicing of stable gaseuos, sprinkler, fog, powder and aerosol extinguishing systems.<br><br>
                             We offer warranty and post-warranty nonstop service of our own products – FRS RACK and FIRESI MODUL Fire Suppression.
@@ -23,7 +20,7 @@
                         <div class="inner">
                             <div class="content">
                                 <h4 class="title">
-                                    <a href="#">Manufacturing</a>
+                                    <a href="{{ url('/services/manufacturing') }}">Manufacturing</a>
                                 </h4>
                             </div>
                             <div class="image">
@@ -38,7 +35,7 @@
                         <div class="inner">
                             <div class="content">
                                 <h4 class="title">
-                                    <a href="#">Installation</a>
+                                    <a href="{{ url('/services/installation') }}">Installation</a>
                                 </h4>
                             </div>
                             <div class="image">
@@ -53,7 +50,7 @@
                         <div class="inner">
                             <div class="content">
                                 <h4 class="title">
-                                    <a href="#">Pressure Vessel inspection</a>
+                                    <a href="{{ url('/services/pressure-vessel-inspection') }}">Pressure Vessel inspection</a>
                                 </h4>
                             </div>
                             <div class="image">

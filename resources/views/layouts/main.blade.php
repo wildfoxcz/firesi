@@ -8,7 +8,7 @@
     <title>FIRESI s.r.o. - You won’t burn out with us!</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ url('assets/images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url('assets/images/favicon.ico') }}">
 
     <!-- CSS ============================================ -->
     <link rel="stylesheet" href="{{ url('assets/css/vendor/bootstrap.min.css') }}">
